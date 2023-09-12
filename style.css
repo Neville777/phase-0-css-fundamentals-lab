@@ -22,7 +22,6 @@ nav a {
   padding: 10px;
   background-color: rgba(173, 177, 174, 0.418);
   color: rgb(3, 97, 134);
-  text-decoration: none;
   margin:0 10px; 
   width: 100px;
   display: inline-block; 
@@ -52,7 +51,7 @@ figcaption {
 .bottom-row {
   background-color: yellowgreen;
   text-align: center;
-  width: 15%;
+  width: 25%;
   float: left;
   margin-left:-50px;
   box-sizing: content-box;
