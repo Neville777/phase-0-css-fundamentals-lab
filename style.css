@@ -3,3 +3,48 @@ body {
   height: 100%;
   margin: 0;
 }
+h1 {
+  color: red;
+}
+/* Align the header text in the center */
+h1 {
+  text-align: center;
+}
+/* Center the image */
+img {
+  display: block;
+  margin: 0 auto;
+}
+/* Center and style navigation links */
+nav a {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(173, 177, 174, 0.418);
+  color: rgb(3, 97, 134);
+  text-decoration: none;
+  margin: 10px auto; 
+  width: 150px; 
+}
+/* Shrink the font size of the image caption and center it */
+figcaption {
+  font-size: 15px;
+  text-align: center;
+}
+/* Center and set a width for paragraphs within #featured-property */
+#featured-property p {
+  width: 800px;
+  margin: 10px auto;
+  text-align: center;
+}
+/* Float the divs within the #details section to the left */
+#details div {
+  float: left;
+  width: 25%;
+}
+#bottom-row div {
+  background-color: rgb(218, 13, 13);
+  text-align: center;
+  width: 25%;
+}
+
