@@ -4,7 +4,7 @@ body {
   margin: 0;
 }
 h1 {
-  color: red;
+  color: rgb(233, 184, 25);
 }
 /* Align the header text in the center */
 h1 {
@@ -23,9 +23,15 @@ nav a {
   background-color: rgba(173, 177, 174, 0.418);
   color: rgb(3, 97, 134);
   text-decoration: none;
-  margin: 10px auto; 
-  width: 150px; 
+  margin:0 10px; 
+  width: 100px;
+  display: inline-block; 
 }
+/* Center the navigation links container horizontally on the page */
+.centered-nav {
+  text-align: center; 
+}
+
 /* Shrink the font size of the image caption and center it */
 figcaption {
   font-size: 15px;
@@ -42,9 +48,15 @@ figcaption {
   float: left;
   width: 25%;
 }
-#bottom-row div {
-  background-color: rgb(218, 13, 13);
+/* Apply common styles to all the bottom row divs */
+.bottom-row {
+  background-color: yellowgreen;
   text-align: center;
-  width: 25%;
+  width: 15%;
+  float: left;
+  margin-left:-50px;
+  box-sizing: content-box;
+  padding:25px;
 }
+
 
